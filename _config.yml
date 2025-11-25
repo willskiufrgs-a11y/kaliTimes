@@ -6,6 +6,8 @@ description: >- # Este é o resumo que aparece nos motores de busca
 baseurl: "/kaliTimes" # Se o seu repositório for 'usuario.github.io', deixe vazio.
 url: "https://willskiufrgs-a11y.github.io" # URL completa do seu site
 
+# 4. CONFIGURAÇÃO DE URL PERMANENTE
+permalink: /:title/ # Novo formato de URL simples
 # 2. Configuração do Tema (Opcional, mas recomendado para começar)
 # Você pode usar um tema padrão suportado pelo GitHub.
 # Se quiser o seu próprio estilo (styles.css), você pode omitir ou definir um tema.
