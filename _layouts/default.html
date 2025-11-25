@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1><a href="/">{{ site.title }}</a></h1>
+        <nav>
+            <a href="/">Início</a>
+            <a href="/sobre.html">Sobre</a> 
+        </nav>
+    </header>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</p>
+        <p>Código MIT | Conteúdo CC BY-NC</p>
+    </footer>
+
+</body>
+</html>

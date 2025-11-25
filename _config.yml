@@ -1,0 +1,16 @@
+# 1. Configurações Básicas do Site
+title: Blog Coletivo [Seu Nome Aqui]
+email: seuemail@exemplo.com
+description: >- # Este é o resumo que aparece nos motores de busca
+  Artigos sobre Filosofia, História, Matemática e mais, escritos por nós.
+baseurl: "" # Se o seu repositório for 'usuario.github.io', deixe vazio.
+url: "https://SEU_USUARIO.github.io" # URL completa do seu site
+
+# 2. Configuração do Tema (Opcional, mas recomendado para começar)
+# Você pode usar um tema padrão suportado pelo GitHub.
+# Se quiser o seu próprio estilo (styles.css), você pode omitir ou definir um tema.
+# theme: jekyll-theme-minimal 
+
+# 3. Configuração de Compilação
+plugins:
+  - jekyll-feed

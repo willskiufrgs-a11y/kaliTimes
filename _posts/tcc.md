@@ -1,0 +1,313 @@
+---
+layout: default # Usa o layout que acabamos de criar
+title: "Exemplo do Primeiro Artigo em Markdown"
+author: "Seu Nome"
+date: 2025-11-25 10:00:00 -0300
+categories: [Filosofia, Introdução]
+---
+
+
+#### Running out of ways to procrastinate my TCC, so I'll do a blog
+
+The fact is that I did not start it yet.
+Yes, its being like 4 years or something and I'm on my last 2 mandatory classes... 
+
+I did not started yet for many reasons I'm sure...
+
+Anyways, I was going to 'start' right now, but then realized that this one will be hard to pull out.
+
+This TCC project isn't like enormous, it is actually suppose to be a super baby version of the TCC, or a little more precisely, its suppose to be just the layout for such a project...
+
+Well, every time someone asked me about my TCC, I tended to answer like I knew the basics, (I mean literally saying "I know the basics"), but IDK. 
+Maybe I just know in a very 'proto theoretical' way, that is, I know I have enough knowledge to derive the theoretical (and even practical) layout of the project given enough time, just by thinking about it, and in the moments of more *hybris* I tend to believe that.
+
+But often I realize how wrong I am only after trying it (maybe that's why I did not..)(but all of this maybe a corny and over self-righteous critically-acclaimed easy to swallow little 'truth'), so lets try it, shall we? (No ;-;)
+
+Oh boy... So, by what I remember of the teacher's emails about the assignments for  this class ( I did none so far ), the first thing he wanted from us was the cover, is something like:
+
+- Name of Institution
+
+- Name of author
+
+- Title of the thing you're doing
+  
+  - subtitle if applies
+
+- Other boring stuff like Location and date
+
+So the hurdle here for me is the damn title... Because I would need a subject for that... And well, after that a lot more (the 'fun' is just beginning of course), but, I don't yet have a title, so lemme have a moment in here for a bit. (took 22min to get from 0 to here, now is 00:34 11/11/2025)[first checkpoint]
+
+```
+I have a very specific request here, which might be tricky. 
+I will provide a little 'blog post' of sorts that I just wrote.
+I want to explain better my intentions both with the 'blog post'
+and from you right now:
+
+I'm looking forward to do the actual assignment. Thats the main thing.
+I thought about writing about it instead as a way of breaking the inertia
+and getting my thoughts out, and I think those 22 minutes doing it were
+nicely spent. 
+
+However, I fear also to be running away, as the title of my 
+'blog post' suggests. What I would like is to be more clear abaut
+what I want. I fear start losing track of the actual TCC building, 
+turning this exercise to much into an actual blog post.
+I think in my head, deep down, I actually believe I'm doing a blog post
+and might even publish it. You get me? And of course, to actually write
+a blog post would be super cool, and the main philosophy of doing that 
+is the 'kill as many bunnies as possible with one swing' kinda deal, 
+as I would be, magically, actually doing the TCC and also doing my 
+first ever, self-aware filled up, blog post!
+
+But I'm afraid I'm not there yet... I doubt myself... And ye ye, I know,
+if I organize myself well enough, I would be able to do it...
+
+But the reality of the situation is that I have very little time to
+not get an F and have to wait another full year... So I really should
+be lazer focused on just getting this done the quickest way possible.
+
+Of course, in my mind, everything turns into a question, auncertainty.
+I see many possibilities for anything. I could just as well just lock
+this class right now, be gone to another course entirely (I'm currently 
+philosophy, thinking in going to computation sciences...) and come back
+to this TCC later one....
+
+I'm very indecisive as you can see. 
+I think I believe that If I'm 'decided' enough, I have endless drive
+and immense knowledge and mental faculties, enough to be able to 
+accomplish just about anything, and in that case, I ask you to, somehow,
+**make me more decisive!**
+
+Anyways, here is the 'blog post'. (00:59)
+```
+
+```
+(Here I'm fighting the urge to send everything twice for the bot ---
+everything including this box up here, and afterwards, sending everything again...
+You seee ????)
+I'm sory for that, at any rate the models are currently unavailable, so
+we'll have to wait a bit.
+```
+
+(08:41)
+
+#### The model responded:
+
+> Of course. I can help with this. Reading your post, it's clear you're caught in a classic, and very tough, state of analysis paralysis. It's not about a lack of knowledge or ability; it's about being overwhelmed by the sheer number of possibilities and the pressure to make the "perfect" choice. The fear of choosing the wrong path is keeping you from taking any path at all.
+> 
+> Let's cut through the noise. You asked me to make you more decisive. I will do that by giving you a clear, concrete path forward based on what you've already told me and what I know about your interests.
+> 
+> ### Your Unique Strength: The Bridge Between Two Worlds
+> 
+> First, let's address the big conflict: Philosophy vs. Computation Sciences. You see this as an "either/or" decision that's paralyzing you. But looking at your interests, it's clear your strength lies at the intersection of these two fields. Your engagement with **Logic, Metalogic, Set Theory, and Computability** is the bridge. This isn't a conflict; it's your niche.
+> 
+> I remember from our previous conversations that you were exploring a TCC topic on **"Nietzsche and incompleteness theorems."** This idea is not just good; it is the perfect synthesis of your interests. It combines deep philosophical inquiry (Nietzsche) with the rigorous, formal systems of logic you're drawn to in computer science (Gödel's theorems).
+> 
+> Let's stop thinking about other possibilities. This is your topic. The indecision ends here.
+> 
+> ### Action Plan: From Zero to "Started" in 15 Minutes
+> 
+> We are going to be "lazer focused," just as you said. The goal is to get the first assignment—the cover page—done right now.
+> 
+> #### **Step 1: Choose Your Title (Pick One Now)**
+> 
+> Here are three titles based on your own excellent idea. They are just starting points. Pick the one that feels best *for now*. You can always refine it later. Don't overthink it.
+> 
+> 1. **The Direct Title:** *Nietzsche and Gödel: A Philosophical Inquiry into Incompleteness*
+> 
+> 2. **The Conceptual Title:** *The Limits of Systems: Perspectivism in Nietzsche and Incompleteness in Logic*
+> 
+> 3. **The Computational Title:** *Beyond Calculation: Incompleteness from Gödel's Logic to Nietzsche's Philosophy*
+> 
+> Choose one. Now.
+> 
+> #### **Step 2: Create the Cover Page**
+> 
+> Open a new document. Type out the cover page exactly as the teacher requested. Put your chosen title on it.
+> 
+> - Name of Institution
+> 
+> - Your Name
+> 
+> - **[The Title You Just Picked]**
+> 
+> - Location and Date
+> 
+> You have now officially started your TCC and completed the first assignment.
+> 
+> #### **Step 3: Build the "Super Baby Version" Layout**
+> 
+> This is the layout you mentioned. It’s the skeleton of your project. Copy and paste this into your document right after the cover page. This is your roadmap.
+> 
+> **Working Title:** [The Title You Chose]
+> 
+> 1. Introduction:
+> * Hook: Start with the philosophical quest for ultimate truth and certainty.
+> 
+> * Problem: Introduce Nietzsche's critique of objective truth (perspectivism) and Gödel's mathematical proof that formal systems have inherent limitations (incompleteness).
+> 
+> * Research Question: How can Gödel's incompleteness theorems serve as a formal analogue to Nietzsche's philosophical claims about the limits of systems and knowledge?
+> 
+> * Roadmap: Briefly state that you will first explain Gödel's concepts, then Nietzsche's, and finally synthesize them.
+> 2. Chapter 1: The Logic of Limits - Understanding Gödel
+> * Explain, in simple terms, what a formal system is.
+> 
+> * Describe what Gödel's two incompleteness theorems state.
+> 
+> * Focus on the philosophical implications: that any sufficiently complex logical system cannot prove its own consistency and will contain true statements that are unprovable within the system.
+> 3. Chapter 2: The Philosophy of Perspectives - Understanding Nietzsche
+> * Explain Nietzsche's concept of perspectivism (the idea that all knowledge is filtered through a perspective).
+> 
+> * Discuss his critique of "systems" in philosophy and his suspicion of a single, objective "Truth."
+> 
+> * Connect this to the Will to Power as the driving force behind the creation of these perspectives and systems.
+> 4. Conclusion: A Synthesis of Ideas
+> * Argue that Gödel's work provides a formal, mathematical echo of Nietzsche's philosophical intuition.
+> 
+> * Conclude that both, from different angles, point to a fundamental "incompleteness" in our attempts to build all-encompassing, perfectly closed systems of thought.
+> 
+> * Briefly touch on the implications for AI, knowledge, and the future of philosophy.
+> 5. Bibliography
+> * Start with the essentials you've already looked at (e.g., Boolos' Computability and Logic, works by Nietzsche).
+> 
+> ### What About the Blog and Switching Courses?
+> 
+> - **The Blog is Now Your TCC Diary:** You spent 22 minutes getting your thoughts out, and it worked. Don't abandon it. Use that exact style to write your TCC. Write the introduction as if it's a blog post. Write Chapter 1 as another. This is no longer procrastination; it is your *method*. It's how you "kill as many bunnies as possible with one swing."
+> 
+> - **Table the Course Change Decision:** The question of switching to Computation Sciences is a big one, and you cannot make a good decision under your current pressure. Deciding on that can wait. The quickest way to get the clarity you need is to **finish this TCC**. Completing a project that already merges your two passions will give you a much better vantage point from which to decide your next move.
+> 
+> You have everything you need. The indecision was a symptom of not having a concrete plan. Now you have one.
+> 
+> Your next step is simple: Open the document and begin. 
+
+So yea, I'll set my 15min timer and lets try it!
+
+So, for now I like the **The Limits of Systems: Perspectivism in Nietzsche and Incompleteness in Logic**
+
+Well, this turn out to be going [here, in this google docs](https://docs.google.com/document/d/1CfbRpBLv-Ibk8Xx2a6EbjuacOmbtqakaUHZWdXwx5jY/edit?tab=t.0)
+
+Notably, this was the 'ripest fruit' so far (yet incomplete), a piece of the Summary: (just done at 11:04 of 11/11/2025)
+
+> **O perspectivismo Nietzschiano acerta limites intransponíveis às perspectivas de qualquer agente em seu enquadramento do mundo como trágico; a natureza de tais limites é diversa, pois parecem se encaixar desde o que se entende por limites de força até limites epistêmicos. Os teoremas da incompletude caracterizam limitações de certos sistemas formais, uma espécie de ‘princípio da incerteza’, onde a indecidibilidade não pode ser completamente expurgada de tais sistemas; A questão de interesse neste trabalho é explorar o grau de relevância e viabilidade de paralelos entre o perspectivismo de Nietzsche, ênfase em suas consequências epistemológicas, e sistemas formais.**
+
+#### Lost a lot o f bsssss fakkkkkkkkkk (last save twesday, now is early moonday)
+
+Well, since that last and very ugly loss, I'll try to get back at it..
+Fortunately, or, less unfortunately, I think I just lost some interesting Ideas for the TCC itself there... If I remember it or find somewhere will make sure to put those back, but otherwise, thing the main thing got saved as it was a Gemini talk:
+
+**The prompt:**
+
+> Estou em uma encruzilhada entre algumas coisas.
+> Na verdade agr é bem facil descrever meus dilemas:
+> 
+> 1. Faculdade: estou no fim de meu bacharelado em filosofia, só restam duas cadeiras obrigatórias (uma delas linguiça) e o TCC, e é isso...
+> 2. Trabalho: Esse se subdivide em umas 4 coisas, que são a bolsa da faculdade, que me dá um bom ambiente para aprender coisas na area de TI e uma renda baixa mas estável (terei isso por mais um semestre); Segundamente meu trabalho online, que está sendo minha principal fonte de renda e abrindo portas incriveis, mas por muitas vezes é incerto... Alguns bicos secundários (formatei 1 computador) e muitos outros trabalhos de free lance em planilhas e outras tarefas de escritório, mas esses ultimos estão praticamente ausentes ultimamente...
+> 
+> Em resumo, no momento de agora, estaria completamente feliz apenas com a bolsa e meu trabalho online, e uma cadeira na faculdade apenas (estou com 3, as duas obrigatórias e uma eletiva de lógica), isso seria o ideal e é onde minhas inclinações mais se direcionam. Tem sido extremamente satisfatório e engrandecedor em minha vida, isso está me permitindo experienciar pela primeira vez a tão sonhada independência financeira, que com toda sorte e felicidade do mundo experiencio com minha namorada. O prospecto de um futuro ainda mais rico só torna tudo ainda mais surreal, sinto que finalmente estou numa posição em que consigo realmente crescer. E claro, isso tudo já é demandante o bastante para mim.
+> 
+> Acontece então que a faculdade (especialmente essas cadeiras obrigatórias) se tornaram majoritariamente uma penosa formalidade.... Cadeiras cujos assuntos, no momento, tem muito pouco a ver com onde minha atenção tem se direcionado. Não acho que sejam cadeiras invalidas ou ruims, bem pelo contrário, fico extremamente triste em aproveitalas tão mal, tão superficialmente e fico pensando em como contar isso para os professores...
+> Mas acaba sendo uma escolha muito dificil pois, novamente, são as ultimas cadeiras obrigatórias para se ter o diploma, minha primeira formação! Passaria a ter o tão sonhado "ensino superior", sinto que isso elevaria meu espírito, me dando muita leveza para trilhar novos caminhos.... Pra piorar, se tratam de cadeiras anuais, então não as fazer agora significaria pelo menos mais 1 ano no curso... Então, mais pressão para terminalas agora...Depois estaria então 'livre' para tratar do TCC, sendo então possivel me formar no semestre que vem.
+> 
+> Mas sinto o TCC ainda tão distante, e continuaria sendo uma enorme (talvez maior ainda) pressão por pelo menos mais um semestre. Ahh, mas talvez pressão seja bom para eu crescer... (tendo a acredirtar genuinamente nisso)
+> 
+> Por outro lado, me inscrevi para uma transferencia interna para o curso de Ciencia da computação... Se conseguir, começo no novo curso semestre que vem... Não seria do zero pois já cursei muitas das cadeiras enquanto na filosofia além de me interessar muito no assunto. Sinto que é onde mais tenho a aprender no momento...
+> 
+> Meu senário ideal seria assim:
+> 
+> Sigo trabalhando online, faço disso o foco da minha dedicação, busco melhorar o maximo nisso e tudo mais. Ao mesmo tempo, por hora, sigo na bolsa principalemente pela experiencia e pela renda garantida (muito importante para mim, nunca mais quero necessitar de ajuda financeira de minha familia), e sigo estudando apenas uma cadeira, no máximo duas, assim mantenho mais minha mente afiada aprendendo coisas novas. Sigo nesse ritmo, trabalhando e estudando, podendo fazer meu TCC (da filosofia) tranquilamente ao longo da minha graduação em Ciencia da comp. Para então, quando estiver pronto o tcc, posso simplesmente voltar para a filo, terminar as unicas 2 cadeiras restantes, e me formar imediatamente (possivelmente conseguiria num ano só me formar em filosofia e ciencias da computação).
+> 
+> É mais ou menos isso. Não sei que tipo de resposta ou ajuda espero, mas já me sinto muito bem de ter articulado todos esses pensamentos, estavam me atormentando a muito tempo já. 
+
+**The response:**
+
+> Olá! Em primeiro lugar, **muito obrigado por compartilhar seus dilemas de forma tão clara e detalhada.** Articular esses pensamentos é o passo mais importante para encontrar uma solução, e você já fez o trabalho mais difícil: mapear a situação.
+> 
+> É perfeitamente normal e compreensível sentir-se em uma encruzilhada quando se está experimentando tanto sucesso e crescimento em diferentes áreas. O que você está vivendo é a transição de um caminho acadêmico para uma carreira promissora, e esse processo gera atrito.
+> 
+> Permita-me desmembrar e refletir sobre seus pontos, focando nos prós e contras das suas opções, especialmente em relação ao seu cenário ideal.
+> 
+> ---
+> 
+> ## 🧭 Análise dos Seus Dilemas
+> 
+> Você está balanceando três grandes vetores: **Conclusão da Filosofia**, **Novo Começo em Ciência da Computação (CC)**, e o **Crescimento Profissional (Trabalho Online/Bolsa)**.
+> 
+> ### 1. 🎓 Conclusão da Filosofia: "A Formalidade Penosa"
+> 
+> | **Oportunidade/Pró**             | **Desafio/Contra**                                                                                                  |
+> | -------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+> | **Diploma de Nível Superior**    | As duas cadeiras obrigatórias são anuais, forçando a conclusão *agora* ou a espera de **mais um ano.**              |
+> | **"Elevar o Espírito" / Leveza** | São cadeiras que não se alinham com seu foco atual (TI/Trabalho Online), tornando-se uma distração de alta pressão. |
+> | **Finalização Rápida**           | Se passar nas cadeiras e focar no TCC, pode se formar no próximo semestre.                                          |
+> | **Pressão do TCC**               | Mesmo passando nas cadeiras, o TCC é uma pressão gigantesca que pode competir com o seu trabalho online.            |
+> 
+> **Reflexão:** O valor do diploma de Filosofia, neste momento, é mais **emocional e simbólico** ("primeira formação", "ensino superior") do que prático para a sua nova área de atuação (TI). No entanto, está *muito perto*.
+> 
+> ### 2. 💻 Trabalho Online e Bolsa: O Foco Real
+> 
+> | **Oportunidade/Pró**          | **Desafio/Contra**                                                                                       |
+> | ----------------------------- | -------------------------------------------------------------------------------------------------------- |
+> | **Independência Financeira**  | Fonte principal de renda, mas por vezes **incerta**. Exige foco máximo.                                  |
+> | **Crescimento Acelerado**     | Está abrindo "portas incríveis" e permite que você "cresça de verdade."                                  |
+> | **Bolsa (Renda/Experiência)** | Renda estável e, crucialmente, um bom ambiente para aprender TI, o que alinha-se perfeitamente com a CC. |
+> 
+> **Reflexão:** Este é o seu **motor de satisfação e futuro.** Qualquer decisão acadêmica deve, idealmente, **proteger e nutrir** esse motor. Seu cenário ideal reconhece isso ao colocar o trabalho online como o "foco de dedicação."
+> 
+> ### 3. 🖥️ Transferência para Ciência da Computação (CC)
+> 
+> | **Oportunidade/Pró**                 | **Desafio/Contra**                                                                                           |
+> | ------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
+> | **Alinhamento Perfeito**             | É onde você "mais tem a aprender no momento" e está diretamente ligado ao seu sucesso profissional.          |
+> | **Aproveitamento de Disciplinas**    | Você não começaria do zero, acelerando o processo.                                                           |
+> | **Possibilidade de Dupla Graduação** | Seu cenário ideal permite (Filosofia + CC) em um horizonte de tempo razoável.                                |
+> | **Risco de Foco Dividido**           | Um novo curso, mesmo que mais interessante, ainda é uma carga acadêmica que competirá com o trabalho online. |
+> 
+> ---
+> 
+> ## 💡 Avaliando Seu Cenário Ideal (A Opção da Flexibilidade)
+> 
+> Seu cenário ideal é extremamente inteligente, pois ele maximiza a **flexibilidade** e minimiza a **pressão desnecessária** no seu momento de maior crescimento profissional.
+> 
+> > **Cenário Ideal:** Foco no Trabalho Online > Mantém a Bolsa > Estuda 1-2 cadeiras > TCC da Filosofia feito com calma durante CC > Finaliza as 2 obrigatórias da Filosofia quando o TCC estiver pronto.
+> 
+> ### Pontos Fortes do Seu Plano:
+> 
+> 1. **Prioriza a Renda e o Crescimento:** O foco no trabalho online e a segurança da bolsa são priorizados, garantindo sua independência financeira.
+> 
+> 2. **Reduz a Pressão:** Retirar as duas "formalidades penosas" anuais agora alivia uma fonte enorme de estresse e permite que você se dedique melhor às cadeiras que lhe interessam (como a de lógica e/ou as de CC).
+> 
+> 3. **Mantém a Ponte da Filosofia:** Ao deixar apenas o TCC e as 2 obrigatórias para o final, você garante que o diploma de Filosofia é *pausado*, não *abandonado*.
+> 
+> 4. **Integração de Conhecimento:** Estudar CC enquanto finaliza o TCC de Filosofia (especialmente se for em uma área que tangencie a tecnologia, como ética da IA, lógica formal, etc.) pode enriquecer *ambas* as áreas.
+> 
+> ### O Único Ponto de Risco:
+> 
+> O risco principal é que as duas cadeiras obrigatórias que você deixaria para depois são **anuais**. Isso significa que, se você as trancar (ou for reprovado por falta de dedicação), terá que esperar um ano inteiro para fazê-las novamente, atrasando o diploma em Filosofia.
+> 
+> ---
+> 
+> ## ✅ Sugestão de Caminho: Otimizando a Transição
+> 
+> Baseado na sua inclinação, que busca mais satisfação e crescimento real agora, sugiro que você siga a essência do seu plano, mas com uma pequena modificação na gestão das cadeiras:
+> 
+> 1. **Foco Principal: Trabalho e Transferência.** Mantenha o trabalho online como prioridade de dedicação.
+> 
+> 2. **Aproveite a Eletiva de Lógica:** Se esta for a cadeira que mais te agrada e que pode ser aproveitada em CC, mantenha-a. Se for muito pesada, cogite trancar (apenas se for possível) para reduzir o peso.
+> 
+> 3. **Gerencie as Obrigatórias Anuais com Estratégia (A Decisão Difícil):**
+>    
+>    - **Opção A (Mais Segura/Pesada):** Tente cursar as duas obrigatórias anuais agora, mas com a mentalidade de que são uma **tarefa a ser concluída**, não um foco de aprofundamento. Dedique o mínimo necessário para a aprovação. Isso libera o seu caminho acadêmico para o TCC no próximo semestre e garante que você não perca um ano.
+>    
+>    - **Opção B (Mais Leve/Arriscada):** Tranque/abandone as duas obrigatórias agora. Assuma o risco de que você terá que voltar para fazê-las em um ano (ou mais), mas em troca, ganha um semestre inteiro para se dedicar integralmente ao trabalho online e à adaptação em CC. *Esta opção é mais alinhada com sua satisfação, mas atrasa o diploma de Filosofia.*
+> 
+> 4. **TCC e CC:** Começando CC no próximo semestre (se a transferência for aprovada), dedique-se ao TCC de Filosofia em paralelo, usando a experiência e o ambiente de TI para orientar sua pesquisa. A pressão será menor, pois o foco estará em CC, e o TCC será uma tarefa de longo prazo.
+> 
+> **Você está no caminho certo.** O diploma de Filosofia é um marco importante, mas a independência financeira e o crescimento em TI são o seu futuro imediato. O seu plano de terminar a Filosofia *depois* de avançar em CC é uma forma madura de não sacrificar o futuro pelo passado.
+> 
+> ---
+> 
+> ## Próximo Passo?
+> 
+> Agora que você articulou o dilema, o próximo passo é a **tomada de decisão acionável.**
+> 
+> O ponto de maior pressão é a gestão das duas cadeiras obrigatórias anuais. **Você gostaria que eu pesquisasse as regras da sua universidade sobre trancamento (ou abandono) de disciplinas anuais, ou sobre o tempo máximo para conclusão de curso após iniciar uma transferência interna, para te ajudar a avaliar o risco da Opção B?**

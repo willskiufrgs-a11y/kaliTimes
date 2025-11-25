@@ -1,3 +1,8 @@
+---
+layout: default # Usa o layout padrão que contém o header e footer
+title: Início
+---
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -5,6 +10,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Kali Yuga é a nova moda</title>
+	<link rel="stylesheet" href="assets/css/styles.css">
+
 </head>
 
 <body>
@@ -36,6 +43,16 @@
 		</section>
 	</main>
 
+	<h2>Últimas Postagens</h2>
+
+<ul>
+    {% for post in site.posts %}
+    <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <small>({{ post.date | date: "%Y-%m-%d" }}) - Por: {{ post.author }}</small>
+    </li>
+    {% endfor %}
+</ul>
 	<footer>
 		<p>&copy; 2025 Nosso Blog Coletivo. Todos os direitos reservados.</p>
 		<p>Conteúdo licenciado sob CC BY-NC | Código-fonte licenciado sob MIT.</p>
