@@ -4,7 +4,7 @@ email: seuemail@exemplo.com
 description: >- # Este é o resumo que aparece nos motores de busca
   Artigos sobre Filosofia, História, Matemática e mais, escritos por nós.
 baseurl: "/kaliTimes" # Se o seu repositório for 'usuario.github.io', deixe vazio.
-url: "https://willskiufrgs-a11y.github.io" # URL completa do seu site
+url: "https://willskiufrgs-a11y.github.io/kaliTimes" # URL completa do seu site
 
 # 4. CONFIGURAÇÃO DE URL PERMANENTE
 permalink: /:title/ # Novo formato de URL simples
