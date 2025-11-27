@@ -16,27 +16,28 @@ title: Início
 
 <body>
 
-	<header>
-		<h1></h1>
-		<nav>
-			<ul>
-				<li><a href="index.html">Início</a></li>
-				<li><a href="sobre.html">Sobre Nós</a></li>
-				<li><a href="contato.html">Contato</a></li>
-				<li><a href="TccWill.html">Falhando no tcc</a></li>
-			</ul>
-		</nav>
-	</header>
 
 	<main>
 		<section>
-			<h2>Bem-vindos ao Nosso Espaço!</h2>
-			<p>Esta é a primeira postagem ou introdução do nosso blog coletivo. Fique à vontade para
+			<h2>Gurizada, aqui tão uns **guias** para postar as páginas:</h2>
+			<p>Eskta é a primeira postagem ou introdução do nosso blog coletivo. Fique à vontade para
 				explorar nossos artigos sobre Filosofia, História e mais.</p>
 			<article>
-				<h3>Título do Último Artigo</h3>
-				<p>Aqui vai um pequeno resumo do que trata o artigo. Lorem ipsum dolor sit amet,
-					consectetur adipiscing elit...</p>
+				<h3>Como (e onde) adicionar um post:</h3>
+				<p>Os arquivos devem ter as seguintes características:</p>
+				<ol>
+						<li>Estar no formato markdown (termina em .md)</li>
+                        <li>Nome que segue exatamente o padrão: \n 'yyyy-mm-dd-tituloDoBlog.md' onde y, m e d são respectivamente ano, mes e dia.</li>
+						<li>Dentro do arquivo, as primeiras linhas devem ser um cabeçalho da seguinte maneira: \n 
+\n---
+\nlayout: default # Usa o layout que acabamos de criar
+\ntitle: "Exemplo do Primeiro Artigo em Markdown"
+\nauthor: "Seu Nome"
+\ndate: 2025-11-25 10:00:00 -0300
+\ncategories: [Filosofia, Introdução]
+\n---</li>
+
+				</ol>
 				<a href="artigo-exemplo.html">Leia Mais</a>
 			</article>
 
