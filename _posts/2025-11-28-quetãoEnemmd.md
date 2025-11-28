@@ -1,26 +1,24 @@
 ---
+
 layout: default # Esse layout é o padrão visual, haverão outros, por hora só esse msm  
 title: "Falhando na questão xarope do Enem"  
 author: "wilski"  
 date: 2025-11-28  
 categories: [Matemática, Introdução, Errando] # aki pode-se adicionar outras categorias  
+
 --- 
-
-
 
   Um recipiente tem um formato que faz com que, ao ser enchido de água com uma vazão constante, a distância *D* da lâmina de água ao tampo da mesa, em centímetro, aumente em relação ao tempo *T*, em minuto, de acordo com uma função do tipo
 
-![](/home/william/.var/app/com.github.marktext.marktext/config/marktext/images/2025-11-28-06-43-59-image.png)
+![](../assets/images/2025-11-28-06-43-59-image.png)
 
 sendo os parâmetros *k*, *p* e *m* números reais, para *T* variando entre 0 e 4 minutos, conforme ilustrado na figura, na qual estão apresentadas assíntotas verticais da função tangente utilizada na definição de *D*.
 
-![](/home/william/.var/app/com.github.marktext.marktext/config/marktext/images/2025-11-28-06-44-46-image.png)
+![](../assets/images/2025-11-28-06-44-46-image.png)
 
 A expressão algébrica que representa a relação entre *D* e *T* é
 
-### ![](/home/william/.var/app/com.github.marktext.marktext/config/marktext/images/2025-11-28-06-46-04-image.png)
-
-
+### ![](../assets/images/2025-11-28-06-46-04-image.png)
 
 O gráfico mostra a função tangente que define D, onde o eixo horizontal é o tempo T e o vertical é a distância D. 
 Em resumo, precisamos encontrar os valores de k, p e m.
