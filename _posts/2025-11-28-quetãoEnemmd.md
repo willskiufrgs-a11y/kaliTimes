@@ -1,5 +1,3 @@
-   
-
 ---  
 
 layout: default # Esse layout é o padrão visual, haverão outros, por hora só esse msm  
