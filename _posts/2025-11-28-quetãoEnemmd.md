@@ -136,4 +136,4 @@ ou:
 
 $m = \frac{-4\pi -5}{2}$
 
-No entanto, notamos que nenhuma alternativa cita \pi, então algo está errado.
+No entanto, notamos que nenhuma alternativa cita $\pi$, então algo está errado.
