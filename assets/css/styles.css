@@ -43,3 +43,18 @@ header {
     color: var(--color-text);
     padding: 5px 10px;
 }
+
+main {
+    /* 1. Limita a largura para melhor legibilidade */
+    max-width: 800px;
+
+    /* 2. Centraliza o bloco <main> na tela */
+    margin-left: auto;
+    margin-right: auto;
+
+    /* 3. Adiciona um recuo interno em todos os lados do conteúdo.
+       Isso é o que impede o texto de colar nas bordas laterais. */
+    padding: 40px 20px; /* 40px no topo/base, 20px nas laterais */
+}
+
+                          
