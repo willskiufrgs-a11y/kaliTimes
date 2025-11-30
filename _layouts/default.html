@@ -15,10 +15,19 @@
 </header>
 
     <header>
-        <h1><a href="/">{{ site.title }}</a></h1>
-        <nav>
-            <a href="{{ '/' | relative_url }}">Início</a>
-            <a href="{{ '/' | relative_url }}">Sobre</a> 
+        <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+            <nav class="proximo-leitura">
+    {% if page.previous %}
+        <a href="{{ page.previous.url | relative_url }}">
+            ← Postagem Anterior: {{ page.previous.title }}
+        </a>
+    {% endif %}
+
+    {% if page.next %}
+        <a href="{{ page.next.url | relative_url }}">
+            Próxima Postagem: {{ page.next.title }} →
+        </a>
+    {% endif %}
         </nav>
     </header>
 

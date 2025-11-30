@@ -43,6 +43,12 @@ header {
     color: var(--color-text);
     padding: 5px 10px;
 }
+header, footer {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+}
 
 main {
     /* 1. Limita a largura para melhor legibilidade */
