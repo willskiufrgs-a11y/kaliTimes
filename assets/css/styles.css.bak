@@ -1,0 +1,10 @@
+body {
+    background-color: #5C4033; /* Cor de fundo preta */
+    color: white;           /* Opcional: define a cor do texto como branco para contraste */
+    font-family: Arial, sans-serif; 
+    max-width: 800px; /* Escolha a largura máxima desejada (ex: 800 pixels) */
+    margin-left: auto; /* Centraliza horizontalmente */
+    margin-right: auto; /* Centraliza horizontalmente */
+    padding: 20px; /* Adiciona um pequeno preenchimento interno para evitar que o texto 
+                     encoste nas bordas do elemento <main> */
+}

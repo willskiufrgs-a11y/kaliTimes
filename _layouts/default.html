@@ -10,6 +10,10 @@
 </head>
 <body>
 
+<header>
+    <button id="theme-toggle">Modo Escuro 🌙</button>
+</header>
+
     <header>
         <h1><a href="/">{{ site.title }}</a></h1>
         <nav>
@@ -26,6 +30,6 @@
         <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</p>
         <p>Código MIT | Conteúdo CC BY-NC</p>
     </footer>
-
+    <script src="{{ '/assets/js/theme-switcher.js' | relative_url }}" defer></script>
 </body>
 </html>

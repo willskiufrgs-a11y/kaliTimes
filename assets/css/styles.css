@@ -1,10 +1,45 @@
+/* ==================================== */
+/* ESTILOS PADRÃO (Modo Claro)          */
+/* ==================================== */
+:root, [data-theme="light"] {
+    /* Define as variáveis de cor para o modo claro */
+    --color-background: #ffffff;
+    --color-text: #333333;
+    --color-link: #007bff;
+    --color-header-bg: #f8f9fa;
+}
+
+/* Aplica as variáveis ao corpo */
 body {
-    background-color: #5C4033; /* Cor de fundo preta */
-    color: white;           /* Opcional: define a cor do texto como branco para contraste */
-    font-family: Arial, sans-serif; 
-    max-width: 800px; /* Escolha a largura máxima desejada (ex: 800 pixels) */
-    margin-left: auto; /* Centraliza horizontalmente */
-    margin-right: auto; /* Centraliza horizontalmente */
-    padding: 20px; /* Adiciona um pequeno preenchimento interno para evitar que o texto 
-                     encoste nas bordas do elemento <main> */
+    background-color: var(--color-background);
+    color: var(--color-text);
+    /* ... outros estilos ... */
+}
+
+a {
+    color: var(--color-link);
+}
+
+header {
+    background-color: var(--color-header-bg);
+}
+
+/* ==================================== */
+/* ESTILOS MODO ESCURO                  */
+/* ==================================== */
+[data-theme="dark"] {
+    /* Redefine as variáveis de cor para o modo escuro */
+    --color-background: #121212; /* Fundo preto escuro */
+    --color-text: #e0e0e0;       /* Texto cinza claro */
+    --color-link: #4da3ff;       /* Link azul claro */
+    --color-header-bg: #1f1f1f;  /* Cabeçalho mais escuro */
+}
+
+/* Opcional: Estilo para o botão */
+#theme-toggle {
+    cursor: pointer;
+    border: 1px solid var(--color-text);
+    background: var(--color-header-bg);
+    color: var(--color-text);
+    padding: 5px 10px;
 }
