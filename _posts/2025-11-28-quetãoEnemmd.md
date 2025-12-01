@@ -137,3 +137,7 @@ ou:
 $m = \frac{-4\pi -5}{2}$
 
 No entanto, notamos que nenhuma alternativa cita $\pi$, então algo está errado.
+
+Poisé, esse site ta bem bizarro... viu só <a href='https://willskiufrgs-a11y.github.io/kaliTimes/tccBlog'>esse post bizarro?? </a>.
+
+
