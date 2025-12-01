@@ -11,7 +11,7 @@ permalink: /mapa/
 
 <script>
 
-    const baseUrl = 'https://willskiufrgs-a11y.github.io';
+   
     // AQUI: No início do seu script
 
 // PostURLs contém: ["/kalitimes/tccblog/", "/kalitimes/post-2/"]
@@ -47,59 +47,47 @@ permalink: /mapa/
     
 
 
+// ... (Remova todo o loop allPosts.forEach anterior e use este)
+
+const baseUrl = '{{ site.baseurl }}'; // Injeta o /kaliTimes
+const postTitles = allPosts.map(p => p.title.toLowerCase());
+
 allPosts.forEach(post => {
     // Adiciona o nó do post atual
     nodes.push({ id: post.url, label: post.title, url: post.url, color: "#4da3ff" });
     
-    // Cria um container virtual para analisar o HTML (para o JS 'ler' os links)
     const parser = new DOMParser();
     const doc = parser.parseFromString(post.content, 'text/html');
-    
-    // Encontra todos os links <a> no conteúdo do post
     const links = doc.querySelectorAll('a');
 
-    // ... dentro do allPosts.forEach (loop de posts) ...
+    links.forEach(link => {
+        let targetUrl = link.getAttribute('href');
+        
+        if (targetUrl) {
+            // 1. Remove qualquer domínio externo para obter o caminho
+            if (targetUrl.includes('//')) {
+                targetUrl = targetUrl.split('//').pop();
+                targetUrl = targetUrl.substring(targetUrl.indexOf('/'));
+            }
 
-links.forEach(link => {
-    let targetUrl = link.getAttribute('href');
-    
-    if (targetUrl) {
-        
-        // 1. Descodificação de URL (para lidar com caracteres especiais, ex: %C3%A3)
-        try {
-            targetUrl = decodeURI(targetUrl);
-        } catch (e) {
-            // Se falhar na descodificação, usa a string original
-        }
+            // 2. Normaliza para o formato esperado: /kaliTimes/titulo-do-post/
+            targetUrl = targetUrl.toLowerCase();
+            
+            // 3. Encontra o post de destino na lista allPosts
+            const foundPost = allPosts.find(p => p.url.toLowerCase().includes(targetUrl));
 
-        // 2. Simplificação e Minúsculas
-        targetUrl = targetUrl.toLowerCase();
-        
-        // 3. Checagem Heurística (a nova regra)
-        
-        // Percorre cada URL de postagem válida para ver se o link contém ela
-        postURLs.forEach(postUrlLimp => {
-            
-            // postUrlLimp é algo como "/kalitimes/nome-do-post/"
-            // targetUrl é algo como "https://willskiufrgs-a11y.github.io/kalitimes/nome-do-post"
-            
-            // CRITÉRIO DE CONEXÃO: targetUrl DEVE conter o nome completo do link
-            if (targetUrl.includes(postUrlLimp) && postUrlLimp !== post.url) { 
+            if (foundPost && foundPost.url !== post.url) { 
                 
-                // Remove a barra final do postUrlLimp para usá-lo como ID de destino
-                const toId = postUrlLimp.endsWith('/') ? postUrlLimp.slice(0, -1) : postUrlLimp;
-
+                // Cria a aresta
                 edges.push({
                     from: post.url,
-                    to: postUrlLimp, // Usa a URL limpa do Jekyll como ID de destino
+                    to: foundPost.url,
                     arrows: "to",
                     label: link.textContent.trim() 
                 });
             }
-        });
-    }
-});
-
+        }
+    });
 });
     
 
