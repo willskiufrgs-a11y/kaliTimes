@@ -1,0 +1,34 @@
+---
+layout: default
+title: Mapa de Conceitos
+permalink: /mapa/
+---
+
+<div id="mynetwork" style="width: 100%; height: 600px; border: 1px solid #ccc;"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+
+<script>
+    // 1. DADOS COLETADOS VIA LIQUID SERÃO INJETADOS AQUI (JSON)
+    const nodes = [ /* ... lista de nós ... */ ];
+    const edges = [ /* ... lista de arestas ... */ ];
+
+    // 2. INICIALIZAÇÃO DO VIS.JS
+    const container = document.getElementById('mynetwork');
+    const data = { nodes: new vis.DataSet(nodes), edges: new vis.DataSet(edges) };
+    const options = { 
+        physics: { enabled: true }, 
+        interaction: { navigationButtons: true } 
+    };
+    const network = new vis.Network(container, data, options);
+    
+    // Adiciona evento de click para navegação
+    network.on('click', function (properties) {
+        if (properties.nodes.length > 0) {
+            const nodeId = properties.nodes[0];
+            // Lógica para obter a URL do nó clicado e navegar
+        }
+    });
+
+</script>
