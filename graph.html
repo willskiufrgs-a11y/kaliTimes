@@ -10,6 +10,8 @@ permalink: /mapa/
 <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
 
 <script>
+
+    const baseUrl = 'https://willskiufrgs-a11y.github.io';
     // 1. DADOS COLETADOS VIA LIQUID SERÃO INJETADOS AQUI (JSON)
 
 // 1. INJEÇÃO DE DADOS: O Liquid insere o conteúdo HTML de TODOS os posts
@@ -63,18 +65,18 @@ links.forEach(link => {
                     targetUrl = targetUrl.substring(baseUrl.length);
                 }
 
-                // 2. Normalização da barra final (CRUCIAL PARA JEKYLL PERMALINKS)
+                // 2. Normalização da barra final (para coincidir com o formato Jekyll)
                 if (!targetUrl.endsWith('/') && !targetUrl.includes('#') && !targetUrl.includes('?')) {
                     targetUrl += '/';
                 }
                 
-                // 3. Verifica se o link normalizado é um post interno
-                if (postURLs.includes(targetUrl) && targetUrl !== post.url) { 
+                // 3. Verifica se o link normalizado (em minúsculas) é um post interno
+                if (postURLs.includes(targetUrl.toLowerCase()) && targetUrl !== post.url) { 
                     edges.push({
                         from: post.url,
-                        to: targetUrl,
+                        // Use a URL que está na lista postURLs para garantir a correspondência exata
+                        to: targetUrl, 
                         arrows: "to",
-                        // Adiciona o texto do link como a label da aresta
                         label: link.textContent.trim() 
                     });
                 }
