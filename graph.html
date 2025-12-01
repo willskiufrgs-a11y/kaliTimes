@@ -11,8 +11,50 @@ permalink: /mapa/
 
 <script>
     // 1. DADOS COLETADOS VIA LIQUID SERÃO INJETADOS AQUI (JSON)
-   
-    const edges = [ /* ... lista de arestas ... */ ];
+
+// 1. INJEÇÃO DE DADOS: O Liquid insere o conteúdo HTML de TODOS os posts
+    const allPosts = [
+    {% for post in site.posts %}
+        {
+            url: "{{ post.url | relative_url }}",
+            // IMPORTANTE: 'content' é o HTML completo do post.
+            // O filtro 'escape_once' garante que aspas e caracteres especiais não quebrem o JSON.
+            content: `{{ post.content | strip_newlines | escape_once }}`
+        }
+        {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+    ];
+
+
+
+    
+  const postURLs = allPosts.map(p => p.url); // Lista de URLs para verificar se o link é interno
+
+allPosts.forEach(post => {
+    // Adiciona o nó do post atual
+    nodes.push({ id: post.url, label: post.title, url: post.url, color: "#4da3ff" });
+    
+    // Cria um container virtual para analisar o HTML (para o JS 'ler' os links)
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(post.content, 'text/html');
+    
+    // Encontra todos os links <a> no conteúdo do post
+    const links = doc.querySelectorAll('a');
+
+    links.forEach(link => {
+        const targetUrl = link.getAttribute('href');
+        
+        // Verifica se o link aponta para outro post do blog
+        if (targetUrl && postURLs.includes(targetUrl)) {
+            // Cria uma aresta (edge)
+            edges.push({
+                from: post.url,
+                to: targetUrl,
+                arrows: "to" 
+            });
+        }
+    });
+});
     
     const nodes = [
         {% for post in site.posts %}
