@@ -43,7 +43,7 @@ permalink: /mapa/
 
 allPosts.forEach(post => {
     // Adiciona o nó do post atual
-    nodes.push({ id: post.url, label: post.title ? post.title.escapeHTML() : 'Sem Título', url: post.url, color: "#4da3ff" });
+    nodes.push({ id: post.url, label:"{{ post.title | escape }}", url: post.url, color: "#4da3ff" });
     
     // Cria um container virtual para analisar o HTML (para o JS 'ler' os links)
     const parser = new DOMParser();
