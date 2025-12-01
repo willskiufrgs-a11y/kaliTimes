@@ -54,28 +54,32 @@ allPosts.forEach(post => {
     const links = doc.querySelectorAll('a');
 
 links.forEach(link => {
-    let targetUrl = link.getAttribute('href');
-    
-    // Normalização: Remove o domínio completo, deixando apenas o caminho relativo
-    const baseUrl = 'https://willskiufrgs-a11y.github.io'; // Seu domínio
-    if (targetUrl.startsWith(baseUrl)) {
-        targetUrl = targetUrl.substring(baseUrl.length);
-    }
-    
-    // Normalização: Garante que o link tenha uma barra final (se for um post Jekyll)
-    if (targetUrl.endsWith('tccBlog')) { // Exemplo: se o link for '.../tccBlog'
-        targetUrl += '/'; 
-    }
+            let targetUrl = link.getAttribute('href');
+            
+            if (targetUrl) {
+                
+                // 1. Normalização do URL (remove o domínio completo)
+                if (targetUrl.startsWith(baseUrl)) {
+                    targetUrl = targetUrl.substring(baseUrl.length);
+                }
 
-    // Agora, verifica se o link (normalizado) aponta para outro post
-    if (targetUrl && postURLs.includes(targetUrl) && targetUrl !== post.url) { 
-        edges.push({
-            from: post.url,
-            to: targetUrl,
-            arrows: "to" 
+                // 2. Normalização da barra final (CRUCIAL PARA JEKYLL PERMALINKS)
+                if (!targetUrl.endsWith('/') && !targetUrl.includes('#') && !targetUrl.includes('?')) {
+                    targetUrl += '/';
+                }
+                
+                // 3. Verifica se o link normalizado é um post interno
+                if (postURLs.includes(targetUrl) && targetUrl !== post.url) { 
+                    edges.push({
+                        from: post.url,
+                        to: targetUrl,
+                        arrows: "to",
+                        // Adiciona o texto do link como a label da aresta
+                        label: link.textContent.trim() 
+                    });
+                }
+            }
         });
-    }
-});
 });
     
 
