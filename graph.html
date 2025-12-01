@@ -12,6 +12,9 @@ permalink: /mapa/
 <script>
 
     const baseUrl = 'https://willskiufrgs-a11y.github.io';
+    // AQUI: No início do seu script
+    const postURLs = allPosts.map(p => p.url.toLowerCase()); 
+// PostURLs contém: ["/kalitimes/tccblog/", "/kalitimes/post-2/"]
     // 1. DADOS COLETADOS VIA LIQUID SERÃO INJETADOS AQUI (JSON)
 
 // 1. INJEÇÃO DE DADOS: O Liquid insere o conteúdo HTML de TODOS os posts
@@ -55,33 +58,48 @@ allPosts.forEach(post => {
     // Encontra todos os links <a> no conteúdo do post
     const links = doc.querySelectorAll('a');
 
-links.forEach(link => {
-            let targetUrl = link.getAttribute('href');
-            
-            if (targetUrl) {
-                
-                // 1. Normalização do URL (remove o domínio completo)
-                if (targetUrl.startsWith(baseUrl)) {
-                    targetUrl = targetUrl.substring(baseUrl.length);
-                }
+    // ... dentro do allPosts.forEach (loop de posts) ...
 
-                // 2. Normalização da barra final (para coincidir com o formato Jekyll)
-                if (!targetUrl.endsWith('/') && !targetUrl.includes('#') && !targetUrl.includes('?')) {
-                    targetUrl += '/';
-                }
+links.forEach(link => {
+    let targetUrl = link.getAttribute('href');
+    
+    if (targetUrl) {
+        
+        // 1. Descodificação de URL (para lidar com caracteres especiais, ex: %C3%A3)
+        try {
+            targetUrl = decodeURI(targetUrl);
+        } catch (e) {
+            // Se falhar na descodificação, usa a string original
+        }
+
+        // 2. Simplificação e Minúsculas
+        targetUrl = targetUrl.toLowerCase();
+        
+        // 3. Checagem Heurística (a nova regra)
+        
+        // Percorre cada URL de postagem válida para ver se o link contém ela
+        postURLs.forEach(postUrlLimp => {
+            
+            // postUrlLimp é algo como "/kalitimes/nome-do-post/"
+            // targetUrl é algo como "https://willskiufrgs-a11y.github.io/kalitimes/nome-do-post"
+            
+            // CRITÉRIO DE CONEXÃO: targetUrl DEVE conter o nome completo do link
+            if (targetUrl.includes(postUrlLimp) && postUrlLimp !== post.url) { 
                 
-                // 3. Verifica se o link normalizado (em minúsculas) é um post interno
-                if (postURLs.includes(targetUrl.toLowerCase()) && targetUrl !== post.url) { 
-                    edges.push({
-                        from: post.url,
-                        // Use a URL que está na lista postURLs para garantir a correspondência exata
-                        to: targetUrl, 
-                        arrows: "to",
-                        label: link.textContent.trim() 
-                    });
-                }
+                // Remove a barra final do postUrlLimp para usá-lo como ID de destino
+                const toId = postUrlLimp.endsWith('/') ? postUrlLimp.slice(0, -1) : postUrlLimp;
+
+                edges.push({
+                    from: post.url,
+                    to: postUrlLimp, // Usa a URL limpa do Jekyll como ID de destino
+                    arrows: "to",
+                    label: link.textContent.trim() 
+                });
             }
         });
+    }
+});
+
 });
     
 
