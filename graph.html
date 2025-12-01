@@ -25,17 +25,17 @@ permalink: /mapa/
     {% endfor %}
     ];
 
-    const nodes = [
-        {% for post in site.posts %}
-        {
-            id: "{{ post.url | relative_url }}",
-            label: "{{ post.title | escape }}",
-            url: "{{ post.url | relative_url }}",
-            color: "#4da3ff" // Cor padrão para os nós
-        }
-        {% unless forloop.last %},{% endunless %}
-    {% endfor %}
-    ];
+  //  const nodes = [
+   //     {% for post in site.posts %}
+    //    {
+     //       id: "{{ post.url | relative_url }}",
+   //         label: "{{ post.title | escape }}",
+ //           url: "{{ post.url | relative_url }}",
+ //           color: "#4da3ff" // Cor padrão para os nós
+ //       }
+//        {% unless forloop.last %},{% endunless %}
+//    {% endfor %}
+//    ];
 
     
   const postURLs = allPosts.map(p => p.url); // Lista de URLs para verificar se o link é interno
