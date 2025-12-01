@@ -19,6 +19,7 @@ permalink: /mapa/
             url: "{{ post.url | relative_url }}",
             // IMPORTANTE: 'content' é o HTML completo do post.
             // O filtro 'escape_once' garante que aspas e caracteres especiais não quebrem o JSON.
+            title: "{{ post.title | escape }}",
             content: `{{ post.content | strip_newlines | escape_once }}`
         }
         {% unless forloop.last %},{% endunless %}
@@ -43,7 +44,7 @@ permalink: /mapa/
 
 allPosts.forEach(post => {
     // Adiciona o nó do post atual
-    nodes.push({ id: post.url, label:"{{ post.title | escape }}", url:"{{ post.url | relative_url }}", color: "#4da3ff" });
+    nodes.push({ id: post.url, label: post.title, url: post.url, color: "#4da3ff" });
     
     // Cria um container virtual para analisar o HTML (para o JS 'ler' os links)
     const parser = new DOMParser();
@@ -52,19 +53,29 @@ allPosts.forEach(post => {
     // Encontra todos os links <a> no conteúdo do post
     const links = doc.querySelectorAll('a');
 
-    links.forEach(link => {
-        const targetUrl = link.getAttribute('href');
-        
-        // Verifica se o link aponta para outro post do blog
-        if (targetUrl && postURLs.includes(targetUrl)) {
-            // Cria uma aresta (edge)
-            edges.push({
-                from: post.url,
-                to: targetUrl,
-                arrows: "to" 
-            });
-        }
-    });
+links.forEach(link => {
+    let targetUrl = link.getAttribute('href');
+    
+    // Normalização: Remove o domínio completo, deixando apenas o caminho relativo
+    const baseUrl = 'https://willskiufrgs-a11y.github.io'; // Seu domínio
+    if (targetUrl.startsWith(baseUrl)) {
+        targetUrl = targetUrl.substring(baseUrl.length);
+    }
+    
+    // Normalização: Garante que o link tenha uma barra final (se for um post Jekyll)
+    if (targetUrl.endsWith('tccBlog')) { // Exemplo: se o link for '.../tccBlog'
+        targetUrl += '/'; 
+    }
+
+    // Agora, verifica se o link (normalizado) aponta para outro post
+    if (targetUrl && postURLs.includes(targetUrl) && targetUrl !== post.url) { 
+        edges.push({
+            from: post.url,
+            to: targetUrl,
+            arrows: "to" 
+        });
+    }
+});
 });
     
 
