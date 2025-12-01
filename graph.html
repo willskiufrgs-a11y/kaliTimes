@@ -13,7 +13,7 @@ permalink: /mapa/
 
     const baseUrl = 'https://willskiufrgs-a11y.github.io';
     // AQUI: No início do seu script
-    const postURLs = allPosts.map(p => p.url.toLowerCase()); 
+
 // PostURLs contém: ["/kalitimes/tccblog/", "/kalitimes/post-2/"]
     // 1. DADOS COLETADOS VIA LIQUID SERÃO INJETADOS AQUI (JSON)
 
@@ -30,7 +30,7 @@ permalink: /mapa/
         {% unless forloop.last %},{% endunless %}
     {% endfor %}
     ];
-
+    const postURLs = allPosts.map(p => p.url.toLowerCase()); 
     const nodes = [];
     const edges = [];
    //     {% for post in site.posts %}
