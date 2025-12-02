@@ -55,6 +55,7 @@ const postIdss = [];
    allPosts.forEach(post => {
       let linkk = post.url;
       let stringg = linkk.split('/');
+      stringgg.pop();
       postIdss.push(stringg.pop());
    });
 
@@ -72,14 +73,14 @@ allPosts.forEach(post => {
         let linkStrings = targetUrl.split('/');
         let lastt = linkStrings.pop();
        // lastt = linkStrings.pop();
-     //  if (postIdss.includes(lastt)) {
+       if (postIdss.includes(lastt)) {
                           edges.push({
                     from: post.url,
                     to: '/kaliTimes/' + lastt + '/',
                     arrows: "to",
                     label: link.textContent.trim() 
                 });
-    //   }
+       }
            
             // 2. Normaliza para o formato esperado: /kaliTimes/titulo-do-post/
          //   targetUrl = targetUrl.toLowerCase();
