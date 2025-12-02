@@ -15,8 +15,12 @@
 </header>
 
     <header>
+		<div class='topo'>
         <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-            <nav class="proximo-leitura">
+		<a href="{{ 'mapa' | relative_url }}">Mapa do bagulho</a>
+		</div>
+			
+			<nav class="proximo-leitura">
     {% if page.previous %}
         <a href="{{ page.previous.url | relative_url }}">
             ← Postagem Anterior: {{ page.previous.title }}
