@@ -62,5 +62,14 @@ main {
        Isso é o que impede o texto de colar nas bordas laterais. */
     padding: 40px 20px; /* 40px no topo/base, 20px nas laterais */
 }
-
+topo {
+    /* ATIVA a organização horizontal */
+    display: flex;
+    
+    /* Manda o Título para a esquerda e o Link para a direita */
+    justify-content: space-between; 
+    
+    /* Centraliza os itens verticalmente (no meio) */
+    align-items: center;
+}
                           
