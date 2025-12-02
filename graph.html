@@ -71,6 +71,7 @@ allPosts.forEach(post => {
         let targetUrl = link.getAttribute('href');
         let linkStrings = targetUrl.split('/');
         let lastt = linkStrings.pop();
+        let lastt = linkStrings.pop();
        if (postIdss.includes(lastt)) {
                           edges.push({
                     from: post.url,
