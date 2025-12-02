@@ -60,8 +60,8 @@ const postIdss = [];
 
    
 allPosts.forEach(post => {
-    // Adiciona o nó do post atual
-    nodes.push({ id: post.url.split('/').pop(), label: post.title, url: post.url, color: "#4da3ff" });
+    // Adiciona o nó do post atual    post.url.split('/').pop()
+    nodes.push({ id: post.url, label: post.title, url: post.url, color: "#4da3ff" });
     
     const parser = new DOMParser();
     const doc = parser.parseFromString(post.content, 'text/html');
