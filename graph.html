@@ -51,10 +51,17 @@ permalink: /mapa/
 
 const baseUrl = '{{ site.baseurl }}'; // Injeta o /kaliTimes
 const postTitles = allPosts.map(p => p.title.toLowerCase());
+const postIdss = [];
+   allPosts.forEach(post => {
+      let linkk = post.url;
+      let stringg = linkk.split('/');
+      postIdss.append(stringg.pop());
+   });
 
+   
 allPosts.forEach(post => {
     // Adiciona o nó do post atual
-    nodes.push({ id: post.url, label: post.title, url: post.url, color: "#4da3ff" });
+    nodes.push({ id: post.url.split('/').pop(), label: post.title, url: post.url, color: "#4da3ff" });
     
     const parser = new DOMParser();
     const doc = parser.parseFromString(post.content, 'text/html');
@@ -62,8 +69,17 @@ allPosts.forEach(post => {
 
     links.forEach(link => {
         let targetUrl = link.getAttribute('href');
-      
-
+        let linkStrings = targetUrl.split('/');
+        let lastt = linkStrings.pop();
+       if (lastt in postIdss) {
+                          edges.push({
+                    from: post.url,
+                    to: '/kaliTimes/' + lastt + '/',
+                    arrows: "to",
+                    label: link.textContent.trim() 
+                });
+       }
+            
             // 2. Normaliza para o formato esperado: /kaliTimes/titulo-do-post/
          //   targetUrl = targetUrl.toLowerCase();
             
@@ -73,12 +89,12 @@ allPosts.forEach(post => {
         //    if (foundPost && foundPost.url !== post.url) { 
                 
                 // Cria a aresta
-                edges.push({
-                    from: post.url,
-                    to: targetUrl,
-                    arrows: "to",
-                    label: link.textContent.trim() 
-                });
+        //        edges.push({
+         //           from: post.url,
+           //         to: targetUrl,
+          //          arrows: "to",
+          //          label: link.textContent.trim() 
+          //      });
          //  }
         //}
     });
