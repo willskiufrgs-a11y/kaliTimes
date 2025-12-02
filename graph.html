@@ -62,21 +62,15 @@ allPosts.forEach(post => {
 
     links.forEach(link => {
         let targetUrl = link.getAttribute('href');
-        
-        if (targetUrl) {
-            // 1. Remove qualquer domínio externo para obter o caminho
-            if (targetUrl.includes('//')) {
-                targetUrl = targetUrl.split('//').pop();
-                targetUrl = targetUrl.substring(targetUrl.indexOf('/'));
-            }
+      
 
             // 2. Normaliza para o formato esperado: /kaliTimes/titulo-do-post/
-            targetUrl = targetUrl.toLowerCase();
+         //   targetUrl = targetUrl.toLowerCase();
             
             // 3. Encontra o post de destino na lista allPosts
-            const foundPost = allPosts.find(p => p.url.toLowerCase().includes(targetUrl));
+        //    const foundPost = allPosts.find(p => p.url.toLowerCase().includes(targetUrl));
 
-            if (foundPost && foundPost.url !== post.url) { 
+        //    if (foundPost && foundPost.url !== post.url) { 
                 
                 // Cria a aresta
                 edges.push({
@@ -85,7 +79,7 @@ allPosts.forEach(post => {
                     arrows: "to",
                     label: link.textContent.trim() 
                 });
-            }
+         //  }
         }
     });
 });
