@@ -5,7 +5,7 @@ author: "will"
 date: 2026-01-15 00:20:00 -0300
 categories: [Meditação, Mindfulness, Corruptelas]
 ---
-
+```
 Ok. Here it goes, I'm currently (trying) to work, or, actually working. Let me explain a bit better, or at least try.
 
 I'm currently working on a certain task for more than 48 hours, but the time actually spent working must be, at most, 5 hours.
@@ -18,8 +18,6 @@ From the start, it was super difficult to begin the task. And since, each new th
 So, progress is being made (thank God), even though I'm not even halfway in the task, and the time is starting to run out (still a lot available). 
 So I would like to request help with laser focus on this issue:
 How can I run away less?
-
-
 ```
 It sounds like you are stuck in a classic "avoidance loop," and honestly, given the variables you described, it makes perfect sense why.
 
@@ -67,8 +65,8 @@ If you are physically getting up or alt-tabbing:
 3. Set a timer for 15 minutes of pure focus. No videos, no analysis.
 
 **What is the very first, smallest concrete step you need to do right now to restart the task?** (e.g., "Open the tab," or "Read the next instruction sentence")
-```
 
+```
 Ok. I'm currently in one of the ubiquitous rest moments. I wonder, is there a way to turn those tips into mantra things? What I'm wondering about is if there is such a thing as to set the working time to be a meditation! Yes, exactly that. How could I go about making this 15min work session feel like a mindful-meditation-like experience? I already can guess that, the rule set needs to be very small, atomic even, in order not to compete with the already super demanding task itself. Usually in the normal-ish meditation of this sort, there is one big commandment thing, such as bringing the attention back to something, or the rule set of acknowledging without engagement with the thoughts and stuff. Help me with that!
 
 ```
@@ -123,4 +121,3 @@ Since the instructions are subjective/unclear, you are suffering because you are
 5. **Ambiguity arises.** (Thought: "I don't know what to do.") -> **Mantra:** *"Just This."* -> **Make a choice.** -> **Return to text.**
 
 Would you like to try this for exactly one 15-minute block right now and report back solely on whether you were able to maintain the anchor?
-```
