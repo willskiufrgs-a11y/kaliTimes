@@ -2,7 +2,7 @@
 
 layout: default # Esse layout é o padrão visual, haverão outros, por hora só esse msm  
 title: "Falhando na questão xarope do Enem"  
-author: "wilski"  
+author: "will"  
 date: 2025-11-28  
 categories: [Matemática, Introdução, Errando] # aki pode-se adicionar outras categorias  
 
