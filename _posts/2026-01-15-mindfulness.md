@@ -1,10 +1,10 @@
-```yaml
+---
 layout: default # Usa o layout que acabamos de criar
 title: "Capitaistic-degenerated-mindfuness-meditation"
 author: "will"
 date: 2026-01-15 00:20:00 -0300
 categories: [Meditação, Mindfulness, Corruptelas]
-```
+---
 
 Ok. Here it goes, I'm currently (trying) to work, or, actually working. Let me explain a bit better, or at least try.
 
@@ -13,13 +13,12 @@ Some good amount of those "not-worked" hours where due to completely unrelated t
 Other part of those hours were simply sleeping, as the first 20 (or something) happened without any sleep.
 I understand that one of the factors here is the cheer difficulty of the task itself (super long, requires tons of reading, tons of different instructions, requires tons of self judgement due to subjective or unclear instructions, all with little feedback), together with me being somewhat rusty due to vacation (this task was the ice breaker).
 
-<div style="background-color: #f0a0c0">
 The main thing I'm concerned here is my tendency to run away from work. This was by far the biggest time killer. 
 From the start, it was super difficult to begin the task. And since, each new thing makes me wanna go out and do different stuff, and clearly, I be fallowing that instinct...
 So, progress is being made (thank God), even though I'm not even halfway in the task, and the time is starting to run out (still a lot available). 
 So I would like to request help with laser focus on this issue:
 How can I run away less?
-</div>
+
 
 ```
 It sounds like you are stuck in a classic "avoidance loop," and honestly, given the variables you described, it makes perfect sense why.
